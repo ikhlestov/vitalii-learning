@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Index page</title>
+</head>
+<body>
+  {% if username %}
+    <p>Hello {{username}}</p>
+  {% else %}
+    <p>Hello Anonymus</p>
+  {% endif %}
+  <form action="/" method="post">
+    <label for="username">Would you like to enter your real name?</label><br>
+    <input type="text" id="username" name="username" required><br>
+    <input type="submit" value="Submit">
+  </form>
+
+</body>
+</html>
