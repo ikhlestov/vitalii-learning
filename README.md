@@ -20,10 +20,11 @@ To start the application run `python main.py` and follow to the address [http://
 ## Necessary steps
 
 - [x] (I)Create basic we server application
-- [ ] (I)Add some fancy bootstrap CSS :)
+- [x] (I)Add some fancy bootstrap CSS :)
 - [ ] (V)Copy repository to Vitalii's own public repo
 - [ ] (V)Wrap application with docker container in a separate branch
 - [ ] (V)Create pull request with docker and assign @ikhlestov to it
-- [ ] (I)Add some linters or tests
-- [ ] (V)Run tests on every
+- [ ] (I)Add some linters and tests
+- [ ] (V)Run linters automatically on every commit(you need some CI here)
+- [ ] (V)Run test on pull requests only
 - [ ] (I)Add some kind of database
