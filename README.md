@@ -8,7 +8,7 @@ This is a smiple web server used for demo purposes
 
 # Usage
 
-To start the application run `python main.py` and follow to the address [http://0.0.0.0:8080](http://0.0.0.0:8080)
+To start the application run `APP_PORT=9090 python main.py ` and follow to the address [http://0.0.0.0:9090](http://0.0.0.0:9090)
 
 # TODOs
 
