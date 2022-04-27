@@ -28,3 +28,8 @@ To start the application run `APP_PORT=9090 python main.py ` and follow to the a
 - [ ] (V)Run linters automatically on every commit(you need some CI here)
 - [ ] (V)Run test on pull requests only
 - [ ] (I)Add some kind of database
+
+## Run Application 
+-  For runing an appliction you should use a Docker( Dockerfile attached to project)
+- default address http://0.0.0.0:8080
+- how build and run docker image you can find at link https://docs.docker.com/language/nodejs/run-containers/
