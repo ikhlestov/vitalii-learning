@@ -1,6 +1,10 @@
 import aiohttp_jinja2
 import jinja2
 from aiohttp import web
+from decouple import config
+
+
+APP_PORT = config("APP_PORT", cast=int)
 
 
 class IndexView(web.View):
@@ -27,4 +31,4 @@ def build_app():
 
 
 if __name__ == "__main__":
-    web.run_app(build_app())
+    web.run_app(build_app(), port=APP_PORT)
